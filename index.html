@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Message-Box</title>
+</head>
+<body>
+    <div class="overlay hidden">
+                
+    </div>
+    <div class="popup-warning hidden">
+        <p class="close">X</p>
+        <p id="msg-warning">You have reached the maximum character limit!</p>
+    </div>
+    <div class="container" disabled>
+        <h1>Type your Feedback</h1>
+        <div class="container-box">
+            <textarea name="" id="msg-box" class="msgBox"></textarea>
+            <span id="counter">0/200</span>
+            <span id="remainCounter"></span>
+            
+            
+        </div>
+    </div>
+    
+    <script src="./app.js"></script>
+</body>
+</html>
